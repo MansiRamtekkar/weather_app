@@ -40,25 +40,6 @@ const CurrentWeather = ({ data }) => {
           </div>
         </div>
       </div>
-
-      {/* <div className="bottom">
-        <div className="forecast">
-          <div className="forecast-text">
-            <p className="forecast-heading">Mon</p>
-            <p>30°C</p>
-          </div>
-          <div className="small-vertical-line"></div>
-          <div className="forecast-text">
-            <p className="forecast-heading">Tue</p>
-            <p>30°C</p>
-          </div>
-          <div className="small-vertical-line"></div>
-          <div className="forecast-text">
-            <p className="forecast-heading">Wed</p>
-            <p>30°C</p>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
