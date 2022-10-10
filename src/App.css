@@ -4,6 +4,8 @@
 }
 .search {
   text-align: center;
+  width: 540px;
+  margin: auto;
 }
 footer {
   text-align: center;
