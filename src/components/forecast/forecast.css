@@ -1,0 +1,56 @@
+.forecast {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 24px auto;
+}
+.small-vertical-line {
+  width: 90px;
+  height: 0px;
+  border: 1px solid #000000;
+  transform: rotate(-90deg);
+  margin: 70px auto;
+}
+
+.forecast-button {
+  border: 1px solid black;
+  border-radius: 100px;
+  width: 540px;
+  margin: 3px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  padding: 5px 20px;
+}
+.active,
+.forecast-button:hover {
+  background-color: #abbcc6;
+}
+.icon-small {
+  width: 20px;
+  margin: 5px;
+}
+
+.forecast-details {
+  grid-row-gap: 0;
+  grid-column-gap: 15px;
+  -webkit-column-gap: 15px;
+  column-gap: 15px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1;
+  grid-template-columns: auto auto;
+  row-gap: 0;
+}
+.min-max {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  justify-content: space-between;
+}
